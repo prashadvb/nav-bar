@@ -1,0 +1,57 @@
+*{
+  margin:0px
+}
+body{
+background-image:url("http://wallpapercave.com/wp/vf79Uk2.jpg");
+background-position : center;
+background-size : cover;
+background-repeat : no-repeat;
+background-attachment : fixed;
+font-family: "Protest Guerrilla", sans-serif;
+}
+header{
+  height:100px;
+  background-color:white;
+  font-size:30px
+}
+header .menu{
+  list-style-type:none;
+  display:flex;
+  justify-content:space-around;
+  padding:35px;
+}
+header li:hover{
+  border-bottom:5px solid red;
+  padding-bottom:1px
+}
+.a{
+  font-size:20px;
+/*   margin-left:230px; */
+  margin-top:140px;
+  text-align:center;
+}
+.b{
+  font-size:60px;
+/*   margin-left:299px; */
+  margin-top:20px;
+  text-align:center;
+}
+.c{
+  font-size:20px;
+/*   margin-left:260px; */
+  margin-top:20px;
+  text-align:center;
+}
+.d{
+  width:70px;
+  border:2px solid black;
+  padding:10px;
+  margin-left:560px;
+  margin-top:19px;
+  background-color:black;
+  color:white;
+}
+.d:hover{
+  background-color:#61c5dc;
+  color:black;
+}
